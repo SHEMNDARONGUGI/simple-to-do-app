@@ -1,0 +1,22 @@
+{%extends 'starter.html'%}
+{%block body%}
+<table>
+    <thead>
+        <tr>
+            <th class="table__header">Task</th>
+            <th class="table__header">Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for x in tasklist%}
+        <tr>
+            <td class="table__data">{{x.name}}</td>
+            <td class="table__data">{{x.date}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+</table>
+{%endblock%}

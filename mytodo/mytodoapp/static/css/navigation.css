@@ -1,0 +1,36 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: rgba(1, 1, 68, 0.616);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__item h2{
+    color: yellow;
+    margin-left: 20px;
+}
+
+.nav__options{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-right: 50px;
+}
+
+.nav__option a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav__option a:hover{
+    color: yellow;
+}

@@ -1,0 +1,10 @@
+{% extends 'starter.html'%}
+{% block body %}
+<form action="{% url 'index'%}" class="form_pos" method="POST">
+    {%csrf_token%}
+    <legend>Task Form</legend>
+    <label for="task_title">task title:</label>
+    <input type="text" id="task_title" name="task_title" placeholder="type here..." required="required"><br>
+    <button type="submit">add task</button>
+</form>
+{% endblock %}

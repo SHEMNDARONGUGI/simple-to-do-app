@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'css/navigation.css'%}">
+    <link rel="stylesheet" href="{% static 'css/form.css'%}">
+    <link rel="stylesheet" href="{%static 'css/tasklist.css'%}">
+</head>
+<body>
+    <header class="header">
+    <nav class="nav">
+        <div class="header__item">
+            <h2>Shem's Tasks</h2>
+        </div>
+        <div class="header__item">
+            <ul class="nav__options">
+                <li class="nav__option"><a href="{% url 'index'%}">Add</a></li>
+                <li class="nav__option"><a href="{% url 'tasklist'%}">TaskList</a></li>
+                <li class="nav__option"><a href="">Done</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    {% block body %}
+
+    {% endblock %}
+</body>
+</html>

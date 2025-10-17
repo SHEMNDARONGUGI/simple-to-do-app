@@ -1,0 +1,40 @@
+form{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+
+.form_pos{
+    margin-top: 20px;
+}
+
+legend{
+    margin: 5px;
+    text-align: center;
+}
+
+label{
+    margin-left: 20px;
+}
+
+input[type='text'], input[type='date']{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    color: white; 
+    width: 50%;
+    background-color: rgba(1, 1, 68, 0.616);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover{
+    color: yellow;
+}

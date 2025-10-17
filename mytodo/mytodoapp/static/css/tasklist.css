@@ -1,0 +1,19 @@
+table
+{   
+    margin: 20px auto;
+    width: 75%;
+    border:2px solid black;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(240, 239, 232);
+}
+
+.table__header, .table__data{
+    border:2px solid black;
+    text-align: left;
+}
+
+thead tr th{
+    background-color: rgb(129, 125, 125);
+    color: white;
+}
