@@ -2,7 +2,7 @@
 name = "simple-to-do-app" 
 version = "1.0.0"         
 description = "A simple To-Do application"
-authors = ["Shem Ndaro Ngugi>"]
+authors = ["Shem Ndaro Ngugi<ndaroshem@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
