@@ -8,6 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 # ... other dependencies here ...
+include = [
+    {include = "mytodo"}
+]
 
 [build-system]
 requires = ["poetry-core"]
